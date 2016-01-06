@@ -25,6 +25,12 @@
     "react": "^0.14.5",
     "react-dom": "^0.14.5"
   },
+  "babel": {
+    "presets": [
+       "react",
+       "es2015"
+    ]
+  },
   "jest": {
     "scriptPreprocessor": "<rootDir>/jest-preprocessor.js",
     "testPathDirs": ["<rootDir>/__tests__"],
